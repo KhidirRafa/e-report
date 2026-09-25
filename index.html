@@ -16,7 +16,13 @@
     <link rel="stylesheet" href="./assets/style.css" />
 
     <!-- Import font awesome -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- favicon -->
     <link
@@ -24,37 +30,31 @@
       href="./assets/image/image.png"
       type="image/x-icon"
     />
+
+    <!-- link animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-    <!-- JS boot -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- gk tau apa ini -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
-      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
-      crossorigin="anonymous"
-    ></script>
-
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-primary-subtle py-3">
+
+    <nav
+      class="navbar navbar-expand-lg bg-primary-subtle py-3 animate__animated animate__fadeInDown"
+    >
       <div class="container">
         <a class="navbar-brand d-flex align-items-center gap-2" href="#">
           <img
             src="./assets/image/image.png"
             alt="Logo"
             width="30"
-            class="d-inline-block align-text-top"/>
-            <span class="fw-bold text-primary-emphasis">IDN E-Report</span>
+            class="d-inline-block align-text-top"
+          />
+          <span class="fw-bold text-primary-emphasis">IDN E-Report</span>
         </a>
         <button
           class="navbar-toggler shadow-none"
@@ -70,22 +70,41 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto gap-2 pt-3 pt-lg-0">
             <li class="nav-item">
-              <a class="nav-link text-primary-emphasis active" aria-current="page" href="#">Home</a>
+              <a
+                class="nav-link text-primary-emphasis active"
+                aria-current="page"
+                href="#"
+              ></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-primary-emphasis" href="#">About</a>
+              <a class="nav-link text-primary-emphasis" href="#hero">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-primary-emphasis" href="#">Recent</a>
+              <a class="nav-link text-primary-emphasis" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-primary-emphasis" href="#">Service</a>
+              <a class="nav-link text-primary-emphasis" href="#service"
+                >Services</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-primary-emphasis" href="#">FAQ</a>
+              <a class="nav-link text-primary-emphasis" href="#recent"
+                >Recents</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-primary-emphasis disabled" aria-disabled="true"></a>
+              <a class="nav-link text-primary-emphasis" href="#faq">FAQ</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-primary-emphasis" href="guide.html">Guide</a>
+            </li>
+            
+            <li class="nav-item">
+              <a
+                class="nav-link text-primary-emphasis disabled"
+                aria-disabled="true"
+              ></a>
             </li>
           </ul>
         </div>
@@ -93,112 +112,563 @@
     </nav>
 
     <!-- hero sect -->
-     <section id="hero">
+    <section id="hero">
       <div class="container">
-        <div class="hero row align-items-center gap-5 flex-nowrap flex-column flex-lg-row text-center text-lg-start">
-          <div class="col">
-            <h1 class="fw-bold">Selamat datang <br> di <span class="text-primary">aplikasi IDN E-Report 2026</span> forum pengaduan</h1>
-            <p class="lh-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta veritatis, reiciendis laborum iste saepe ad necessitatibus suscipit enim natus fuga dicta illo. Eveniet animi illo porro blanditiis dolore? Quaerat, nesciunt.</p>
+        <div
+          class="hero row align-items-center gap-5 flex-nowrap flex-column flex-lg-row text-center text-lg-start"
+        >
+          <div
+            class="col animate__animated animate__fadeInLeft animate__delay-1s"
+          >
+            <h1 class="fw-bold">
+              Selamat datang <br />
+              di
+              <span class="text-primary">aplikasi IDN E-Report 2026</span> forum
+              pengaduan
+            </h1>
+            <p class="lh-2">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta
+              veritatis, reiciendis laborum iste saepe ad necessitatibus
+              suscipit enim natus fuga dicta illo. Eveniet animi illo porro
+              blanditiis dolore? Quaerat, nesciunt.
+            </p>
             <div class="mt-4">
               <a href="" class="btn btn-primary">About us</a>
               <a href="" class="btn btn-outline-primary">Let's start</a>
             </div>
           </div>
-          <div class="col d-flex justify-content-center justify-content-lg-end">
-            <img src="undraw_report_k55w.svg" alt="">
+          <div
+            class="col d-flex justify-content-center justify-content-lg-end animate__animated animate__fadeInRight animate__delay-1s"
+          >
+            <img src="assets/image/undraw_report_k55w.svg" alt="" />
           </div>
         </div>
       </div>
-     </section>
+    </section>
 
-     <!-- About sect -->
-      <section id="about">
-        <div class="container">
-          <div class="about row">
-            <div class="col text-center">
-              <h1 class="fw-bold text-primary mb-3">Tentang kami</h1>
-              <p class="lh-2 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur hic dolorem magni nesciunt, eos magnam fugit explicabo repellendus. Distinctio illum dicta deleniti recusandae, deserunt fugit eaque ab consequatur quae itaque.</p>
-              <img src="undraw_engineering-team_13ax.svg" alt="">
+    <!-- About sect -->
+    <section id="about">
+      <div class="container">
+        <div class="about row">
+          <div class="col text-center">
+            <h1
+              class="fw-bold text-primary mb-3"
+              data-aos="fade-up"
+              data-aos-duration="700"
+            >
+              Tentang kami
+            </h1>
+            <p
+              class="lh-2 mb-5"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="200"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur hic dolorem magni nesciunt, eos magnam fugit explicabo
+              repellendus. Distinctio illum dicta deleniti recusandae, deserunt
+              fugit eaque ab consequatur quae itaque.
+            </p>
+            <img
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="250"
+              src="assets/image/undraw_engineering-team_13ax.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- service sect -->
+    <section id="service">
+      <div class="container">
+        <div class="text-center">
+          <h1
+            class="fw-bold text-primary"
+            data-aos="fade-up"
+            data-aos-duration="700"
+          >
+            Layanan kami
+          </h1>
+          <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam
+            quisquam, optio deleniti accusamus consequatur quod aut quis impedit
+            facere officiis harum veniam quibusdam ipsum iusto non natus. Optio,
+            suscipit voluptas?
+          </p>
+        </div>
+        <div class="row p-4 p-lg-0 gap-3">
+          <div
+            class="col bg-primary-subtle p-4 rounded border border-primary"
+            data-aos="fade-up"
+            data-aos-duration="700"
+            data-aos-delay="200"
+          >
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h4 class="fw-semibold">Pengaduan akademik</h4>
+            <p class="lh-2 mt-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+              recusandae molestias molestiae accusamus officiis
+            </p>
+          </div>
+          <div
+            class="col bg-primary-subtle p-4 rounded border border-primary"
+            data-aos="fade-up"
+            data-aos-duration="700"
+            data-aos-delay="300"
+          >
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <h4 class="fw-semibold">Pengaduan fasilitas</h4>
+            <p class="lh-2 mt-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+              recusandae molestias molestiae accusamus officiis
+            </p>
+          </div>
+          <div
+            class="col bg-primary-subtle p-4 rounded border border-primary"
+            data-aos="fade-up"
+            data-aos-duration="700"
+            data-aos-delay="400"
+          >
+            <i class="fa-solid fa-user-secret"></i>
+            <h4 class="fw-semibold">Pengaduan anonymous</h4>
+            <p class="lh-2 mt-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+              recusandae molestias molestiae accusamus officiis
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- recent sect -->
+    <section id="recent">
+      <div class="container">
+        <div class="text-end mb-5">
+          <h1 class="text-primary fw-bold">Laporan Terbaru</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
+            dolores sequi sit, magni dolor eum ex odio itaque, suscipit
+            incidunt, ab nostrum obcaecati perspiciatis molestiae omnis vitae
+            nihil. Obcaecati, corporis.
+          </p>
+        </div>
+        <div class="row">
+          <div
+            class="col-12 col-md-6 col-lg-4 mb-4"
+            data-aos="fade-up"
+            data-aos-duration="700"
+            data-aos-delay="200"
+          >
+            <div class="card">
+              <p
+                style="background-color: rgba(0, 0, 0, 0.461)"
+                class="position-absolute text-white px-3 py-2"
+              >
+                Fasilitas
+              </p>
+              <img
+                src="assets/image/bfdaejfouc7fer2vvjru.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Laporan Kelas Kotor</h5>
+                <p class="mb-4">By: <a href="">Someone</a> 1 day ago</p>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card’s content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-6 col-lg-4 mb-4"
+            data-aos="fade-up"
+            data-aos-duration="700"
+            data-aos-delay="350"
+          >
+            <div class="card">
+              <p
+                style="background-color: rgba(0, 0, 0, 0.461)"
+                class="position-absolute text-white px-3 py-2"
+              >
+                Fasilitas
+              </p>
+              <img
+                src="assets/image/bfdaejfouc7fer2vvjru.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Laporan Kelas Kotor</h5>
+                <p class="mb-4">By: <a href="">Someone</a> 1 day ago</p>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card’s content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-6 col-lg-4 mb-4"
+            data-aos="fade-up"
+            data-aos-duration="700"
+            data-aos-delay="500"
+          >
+            <div class="card">
+              <p
+                style="background-color: rgba(0, 0, 0, 0.461)"
+                class="position-absolute text-white px-3 py-2"
+              >
+                Fasilitas
+              </p>
+              <img
+                src="assets/image/bfdaejfouc7fer2vvjru.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Laporan Kelas Kotor</h5>
+                <p class="mb-4">By: <a href="">Someone</a> 1 day ago</p>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card’s content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- service sect -->
-       <section id="service">
-        <div class="container">
-          <div class="text-center">
-            <h1 class="fw-bold text-primary">Layanan kami</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam quisquam, optio deleniti accusamus consequatur quod aut quis impedit facere officiis harum veniam quibusdam ipsum iusto non natus. Optio, suscipit voluptas?</p>
-          </div>
-          <div class="row p-4 p-lg-0 gap-3">
-            <div class="col bg-primary-subtle p-4 rounded border border-primary">
-              <i class="fa-solid fa-graduation-cap"></i>
-              <h4 class="fw-semibold">Pengaduan akademik</h4>
-              <p class="lh-2 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo recusandae molestias molestiae accusamus officiis</p>
+    <!-- FAQ sect -->
+    <section id="faq">
+      <div class="container">
+        <div class="row text-center">
+          <h1
+            class="fw-bold mb-4 text-primary"
+            data-aos="fade-up"
+            data-aos-duration="700"
+          >
+            FAQ
+          </h1>
+          <p data-aos="fade-up" data-aos-duration="700">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime,
+            quia nesciunt maiores nemo voluptate eaque.
+          </p>
+        </div>
+        <!-- faq accodion -->
+        <div class="accordion" id="accordionExample">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="700"
+            data-aos-delay="200"
+            class="row row-cols-md-2 row-cols-1 g-4"
+          >
+            <div class="col">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button bg-primary text-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq1"
+                    aria-expanded="true"
+                    aria-controls="faq1"
+                  >
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div
+                  id="faq1"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item’s accordion body.</strong>
+                    It is shown by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It’s also worth noting that just about any HTML can go
+                    within the
+                    <code>.accordion-body</code>, though the transition does
+                    limit overflow.
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col bg-primary-subtle p-4 rounded border border-primary">
-              <i class="fa-solid fa-screwdriver-wrench"></i>
-              <h4 class="fw-semibold">Pengaduan fasilitas</h4>
-              <p class="lh-2 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo recusandae molestias molestiae accusamus officiis</p>
+            <div class="col">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button bg-primary text-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq2"
+                    aria-expanded="true"
+                    aria-controls="faq2"
+                  >
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div
+                  id="faq2"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item’s accordion body.</strong>
+                    It is shown by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It’s also worth noting that just about any HTML can go
+                    within the
+                    <code>.accordion-body</code>, though the transition does
+                    limit overflow.
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col bg-primary-subtle p-4 rounded border border-primary">
-              <i class="fa-solid fa-user-secret"></i>
-              <h4 class="fw-semibold">Pengaduan anonymous</h4>
-              <p class="lh-2 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo recusandae molestias molestiae accusamus officiis</p>
+            <div class="col">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button bg-primary text-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq3"
+                    aria-expanded="true"
+                    aria-controls="faq3"
+                  >
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div
+                  id="faq3"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item’s accordion body.</strong>
+                    It is shown by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It’s also worth noting that just about any HTML can go
+                    within the
+                    <code>.accordion-body</code>, though the transition does
+                    limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button bg-primary text-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq4"
+                    aria-expanded="true"
+                    aria-controls="faq4"
+                  >
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div
+                  id="faq4"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item’s accordion body.</strong>
+                    It is shown by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It’s also worth noting that just about any HTML can go
+                    within the
+                    <code>.accordion-body</code>, though the transition does
+                    limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button bg-primary text-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq5"
+                    aria-expanded="true"
+                    aria-controls="faq5"
+                  >
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div
+                  id="faq5"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item’s accordion body.</strong>
+                    It is shown by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It’s also worth noting that just about any HTML can go
+                    within the
+                    <code>.accordion-body</code>, though the transition does
+                    limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button bg-primary text-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq6"
+                    aria-expanded="true"
+                    aria-controls="faq6"
+                  >
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div
+                  id="faq6"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item’s accordion body.</strong>
+                    It is shown by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It’s also worth noting that just about any HTML can go
+                    within the
+                    <code>.accordion-body</code>, though the transition does
+                    limit overflow.
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-       </section>
+      </div>
+    </section>
 
-       <!-- recent sect -->
-        <section id="recent">
-          <div class="container">
-            <div class="text-end mb-5">
-              <h1 class="text-primary fw-bold">Laporan Terbaru</h1>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente dolores sequi sit, magni dolor eum ex odio itaque, suscipit incidunt, ab nostrum obcaecati perspiciatis molestiae omnis vitae nihil. Obcaecati, corporis.</p>
+    <!-- footer -->
+    <footer class="bg-primary">
+      <div class="container">
+        <div class="row justify-content-between row-gap-4">
+          <div class="col-md-4 text-white">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <img
+                src="assets/image/image.png"
+                alt="Logo"
+                width="30"
+                class="d-inline-block align-text-top rounded"
+              />
+              <h2 class="fw-bold m-0">E-Report</h2>
             </div>
-            <div class="row">
-              <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <div class="card">
-                  <p style="background-color: rgba(0, 0, 0, 0.461);" class="position-absolute text-white px-3 py-2">Fasilitas</p>
-                  <img src="bfdaejfouc7fer2vvjru.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Laporan Kelas Kotor</h5>
-                    <p class="mb-4">By: <a href="">Someone</a> 1 day ago</p>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <div class="card">
-                  <p style="background-color: rgba(0, 0, 0, 0.461);" class="position-absolute text-white px-3 py-2">Fasilitas</p>
-                  <img src="bfdaejfouc7fer2vvjru.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Laporan Kelas Kotor</h5>
-                    <p class="mb-4">By: <a href="">Someone</a> 1 day ago</p>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <div class="card">
-                  <p style="background-color: rgba(0, 0, 0, 0.461);" class="position-absolute text-white px-3 py-2">Fasilitas</p>
-                  <img src="bfdaejfouc7fer2vvjru.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Laporan Kelas Kotor</h5>
-                    <p class="mb-4">By: <a href="">Someone</a> 1 day ago</p>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <p class="lh-lg opacity-75 m-0">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
+              consequuntur quae dicta beatae fugit, debitis ad modi delectus
+              itaque cum placeat recusandae. Odit magnam impedit quae velit
+              deserunt earum nihil?
+            </p>
           </div>
-        </section>
+          <div class="col-md-2 d-flex flex-column gap-2">
+            <h4 class="fw-bold text-white">Menu</h4>
+            <a href="#hero" class="footer-link text-white text-decoration-none"
+              >Home</a
+            >
+            <a href="#about" class="footer-link text-white text-decoration-none"
+              >About</a
+            >
+            <a
+              href="#service"
+              class="footer-link text-white text-decoration-none"
+              >Services</a
+            >
+            <a
+              href="#recent"
+              class="footer-link text-white text-decoration-none"
+              >Recents</a
+            >
+            <a href="#faq" class="footer-link text-white text-decoration-none"
+              >FAQ</a
+            >
+            <a href="guide.html" class="footer-link text-white text-decoration-none"
+              >Guide</a
+            >
+          </div>
+          <div class="col-md-4 d-flex flex-column gap-2 text-white">
+            <h4 class="fw-bold">Contact Us</h4>
+            <p class="m-0 d-flex align-items-center gap-2">
+              <i class="fa-solid fa-envelope"></i>
+              rapot2515@gmail.com
+            </p>
+            <p class="m-0 d-flex align-items-center gap-2">
+              <i class="fa-solid fa-phone"></i>
+              +62-812-3400-0214
+            </p>
+            <p class="m-0 d-flex align-items-center gap-2">
+              <i class="fa-solid fa-location-dot"></i>
+              Perum griya Nuraida bogor
+            </p>
+          </div>
+        </div>
 
+        <div class="copyright text-center text-white">
+          <p>
+            &copy; Copyright by <span class="fw-bold">RPL Class</span> 2025, All
+            Right Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
 
+    <!-- js bootsstrap / AOS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

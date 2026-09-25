@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | e-report IDN</title>
+
+    <link rel="shortcut icon" href="./assets/image/IDN.png" type="image/x-icon">
+
+    <!-- css bootstrap -->
+    <link rel="stylesheet" href="">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- my css -->
+
+    <link rel="stylesheet" href="./assets/style.css">
+
+    <!-- cdn fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- cdn animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- css aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-lg bg-primary-subtle py-3 animate__animated animate__fadeInDown"
+    >
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+          <img
+            src="./assets/image/image.png"
+            alt="Logo"
+            width="30"
+            class="d-inline-block align-text-top"
+          />
+          <span class="fw-bold text-primary-emphasis">IDN E-Report</span>
+        </a>
+        <button
+          class="navbar-toggler shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-2 pt-3 pt-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-primary-emphasis active"
+                aria-current="page"
+                href="#"
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary-emphasis" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary-emphasis" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary-emphasis" href="#service"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary-emphasis" href="#recent"
+                >Recents</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary-emphasis" href="#faq">FAQ</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-primary-emphasis" href="guide.html">Guide</a>
+            </li>
+            
+            <li class="nav-item">
+              <a
+                class="nav-link text-primary-emphasis disabled"
+                aria-disabled="true"
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- reports -->
+    <section id="reports">
+        <div class="container">
+            <!-- judul -->
+            <div
+                class="d-flex flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-between">
+                <div class="col-lg-8 text-center text-lg-start">
+                    <h1 class="fw-bold text-primary-emphasis">Semua laporan</h1>
+                    <p class="text-muted lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptas
+                        quo a eos rem! Reiciendis fuga quas excepturi, officiis consequatur corrupti aliquid. Debitis,
+                        cumque
+                        odit!</p>
+                </div>
+                <div class="col-lg-2 ">
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        class="btn btn-primary w-100"><i class="fa-solid fa-plus me-1"></i>Tambah Laporan</button>
+                </div>
+            </div>
+
+            <!-- filter & search -->
+            <div class="row mt-5 gap-md-0 align-item-center">
+                <div class="col-md-4">
+                    <input type="text" class="form-control shadow-sm" placeholder="cari laporan">
+                </div>
+                <div class="col">
+                    <select class="form-select">
+                        <option value="">Kategori</option>
+                        <option value="">Akademik</option>
+                        <option value="">Fasilitas</option>
+                        <option value="">Anonymous</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <select class="form-select">
+                        <option value="">Urutkan</option>
+                        <option value="">Terbaru</option>
+                        <option value="">Terlama</option>
+                        <option value="">Terpopuler</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-primary w-100 shadow-sm">
+                        <i class="fa-solid fa-filter"></i>
+                        Filter
+                    </button>
+                </div>
+            </div>
+
+            <!-- all reports -->
+            <div class="row mb-4 mt-5">
+                <div class="col-12 col md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <p style="background-color:rgba(0, 0, 0, 0.3) ;" class="position-absolute text-white px-3 py-2">
+                            Akademik</p>
+                        <img style="height: 250px; object-fit: cover;" src="./assets/image/secret war.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Avanger Secret wars</h5>
+                            <p class="mb-4">By: <a class="text-decoration-none" href="">Hirza Ilma</a> 2 day ago</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s
+                                content.</p>
+                            <a href="detail-report.html" class="btn btn-primary">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <p style="background-color:rgba(0, 0, 0, 0.3) ;" class="position-absolute text-white px-3 py-2">
+                            Anonymous
+                        </p>
+                        <img style="height:250px; object-fit: cover;" src="./assets/image/doomsday.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">doomsday</h5>
+                            <p class="mb-4">By: <a class="text-decoration-none" href="">Anonymous</a> 2 day ago</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s
+                                content.</p>
+                            <a href="detail-report2.html" class="btn btn-primary">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <p style="background-color:rgba(0, 0, 0, 0.3) ;" class="position-absolute text-white px-3 py-2">
+                            Akademik</p>
+                        <img style="height:250px ; object-fit: cover;" src="./assets/image/secret war.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Avanger Secret wars</h5>
+                            <p class="mb-4">By: <a class="text-decoration-none" href="">Hirza Ilma</a> 2 day ago</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s
+                                content.</p>
+                            <a href="detail-report.html" class="btn btn-primary">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <p style="background-color:rgba(0, 0, 0, 0.3) ;" class="position-absolute text-white px-3 py-2">
+                            Akademik</p>
+                        <img style="height: 250px; object-fit: cover;" src="./assets/image/secret war.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Avanger Secret wars</h5>
+                            <p class="mb-4">By: <a class="text-decoration-none" href="">Hirza Ilma</a> 2 day ago</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s
+                                content.</p>
+                            <a href="detail-report.html" class="btn btn-primary">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <p style="background-color:rgba(0, 0, 0, 0.3) ;" class="position-absolute text-white px-3 py-2">
+                            Anonymous
+                        </p>
+                        <img style="height:250px; object-fit: cover;" src="./assets/image/doomsday.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">doomsday</h5>
+                            <p class="mb-4">By: <a class="text-decoration-none" href="">Anonymous</a> 2 day ago</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s
+                                content.</p>
+                            <a href="detail-report2.html" class="btn btn-primary">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <p style="background-color:rgba(0, 0, 0, 0.3) ;" class="position-absolute text-white px-3 py-2">
+                            Akademik</p>
+                        <img style="height:250px ; object-fit: cover;" src="./assets/image/secret war.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Avanger Secret wars</h5>
+                            <p class="mb-4">By: <a class="text-decoration-none" href="">Hirza Ilma</a> 2 day ago</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s
+                                content.</p>
+                            <a href="detail-report.html" class="btn btn-primary">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <p style="background-color:rgba(0, 0, 0, 0.3) ;" class="position-absolute text-white px-3 py-2">
+                            Akademik</p>
+                        <img style="height: 250px; object-fit: cover;" src="./assets/image/secret war.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Avanger Secret wars</h5>
+                            <p class="mb-4">By: <a class="text-decoration-none" href="">Hirza Ilma</a> 2 day ago</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s
+                                content.</p>
+                            <a href="detail-report.html" class="btn btn-primary">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <p style="background-color:rgba(0, 0, 0, 0.3) ;" class="position-absolute text-white px-3 py-2">
+                            Anonymous
+                        </p>
+                        <img style="height:250px; object-fit: cover;" src="./assets/image/doomsday.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">doomsday</h5>
+                            <p class="mb-4">By: <a class="text-decoration-none" href="">Anonymous</a> 2 day ago</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s
+                                content.</p>
+                            <a href="detail-report2.html" class="btn btn-primary">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <p style="background-color:rgba(0, 0, 0, 0.3) ;" class="position-absolute text-white px-3 py-2">
+                            Akademik</p>
+                        <img style="height:250px ; object-fit: cover;" src="./assets/image/secret war.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Avanger Secret wars</h5>
+                            <p class="mb-4">By: <a class="text-decoration-none" href="">Hirza Ilma</a> 2 day ago</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s
+                                content.</p>
+                            <a href="detail-report.html" class="btn btn-primary">Selengkapnya...</a>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+            <!-- pagination -->
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h1 class="modal-title fs-5 fw-semibold" id="exampleModalLabel"><i
+                            class="fa-solid fa-pen-to-square"></i>Form Tambah Laporan</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form action="">
+                    <div style="padding: 4;" class="modal-body p-4">
+                        <div class="mb-4">
+                            <label class="form-lable fw-semibold" for="">Judul Laporan</label>
+                            <input class="form-control shadow-sm" type="text" placeholder="Tulis judul laporan...">
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-lable fw-semibold" for="">Pilih Kategori</label>
+                            <select class="form-select shadow-sm">
+                                <option value="">Pilih Kategori</option>
+                                <option value="">Akademik</option>
+                                <option value="">Fasilitas</option>
+                                <option value="">Anonymous</option>
+                            </select>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-lable fw-semibold" for="">Isi laporan</label>
+                            <textarea class="form-control shadow-sm" rows="6" placeholder="Tulis isi laporan"></textarea>
+                        </div>  
+                        <div class="mb-4">
+                            <label class="form-lable fw-semibold" for="">Uploud file</label>
+                            <input type="file" class="form-control" accept="image/*">
+                        </div>  
+                    </div>
+                    <div class="modal-footer">
+                        <button type="reset" class="btn btn-secondary">Reset</button>
+                        <button type="submit" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i>Kirim</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+   <footer class="bg-primary">
+      <div class="container">
+        <div class="row justify-content-between row-gap-4">
+          <div class="col-md-4 text-white">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <img
+                src="assets/image/image.png"
+                alt="Logo"
+                width="30"
+                class="d-inline-block align-text-top rounded"
+              />
+              <h2 class="fw-bold m-0">E-Report</h2>
+            </div>
+            <p class="lh-lg opacity-75 m-0">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
+              consequuntur quae dicta beatae fugit, debitis ad modi delectus
+              itaque cum placeat recusandae. Odit magnam impedit quae velit
+              deserunt earum nihil?
+            </p>
+          </div>
+          <div class="col-md-2 d-flex flex-column gap-2">
+            <h4 class="fw-bold text-white">Menu</h4>
+            <a href="#hero" class="footer-link text-white text-decoration-none"
+              >Home</a
+            >
+            <a href="#about" class="footer-link text-white text-decoration-none"
+              >About</a
+            >
+            <a
+              href="#service"
+              class="footer-link text-white text-decoration-none"
+              >Services</a
+            >
+            <a
+              href="#recent"
+              class="footer-link text-white text-decoration-none"
+              >Recents</a
+            >
+            <a href="#faq" class="footer-link text-white text-decoration-none"
+              >FAQ</a
+            >
+            <a href="guide.html" class="footer-link text-white text-decoration-none"
+              >Guide</a
+            >
+          </div>
+          <div class="col-md-4 d-flex flex-column gap-2 text-white">
+            <h4 class="fw-bold">Contact Us</h4>
+            <p class="m-0 d-flex align-items-center gap-2">
+              <i class="fa-solid fa-envelope"></i>
+              rapot2515@gmail.com
+            </p>
+            <p class="m-0 d-flex align-items-center gap-2">
+              <i class="fa-solid fa-phone"></i>
+              +62-812-3400-0214
+            </p>
+            <p class="m-0 d-flex align-items-center gap-2">
+              <i class="fa-solid fa-location-dot"></i>
+              Perum griya Nuraida bogor
+            </p>
+          </div>
+        </div>
+
+        <div class="copyright text-center text-white">
+          <p>
+            &copy; Copyright by <span class="fw-bold">RPL Class</span> 2025, All
+            Right Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- js bootstrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+
+    <!-- js aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            disableMutationObserver: true,
+            debounceDelay: 50,
+            throttleDelay: 99
+        });
+    </script>
+
+</body>
+
+</html>
